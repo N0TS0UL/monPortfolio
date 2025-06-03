@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>Korentin CHARRETEUR - Portfolio</title>
+      <link rel="icon" type="image/x-icon" href="Images/iconPage.png">
+  </head>
+  <body>
+    <header>
+      <img src="Images/PhotoProfileNB.jpg" alt="Photo de Korentin CHARRETEUR" width="150" height="150">
+      <h1>Korentin CHARRETEUR</h1>
+      <p>Étudiant en BUT Informatique</p>
+    </header>
+    <nav class="navbar">
+      <button class="navbar-toggle" aria-label="Ouvrir le menu">&#9776;</button>
+      <ul>
+        <li><a href="#aPropos">À propos</a></li>
+        <li><a href="#contact">Contact</a></li>
+        <li><a href="#technoUse">Téchnologies utilisées</a></li>
+        <li><a href="#competence">Compétences</a></li>
+        <li><a href="#project">Projets</a></li>
+        <li><a href="#cv">CV</a></li>
+      </ul>
+    </nav>
+    <main>
+      <section>
+        <h2 id="aPropos">À propos</h2>
+        <div>
+          <p>18 ans, développeur logiciel français avec une passion pour la création de projets numériques.</p>
+          <p>Étudiant à l'IUT de Lannion en BUT Informatique. J'ai une forte passion pour la construction de choses qui résolvent des problèmes concrets. J’ai de l’expérience avec une variété de technologies et je suis toujours curieux d’en apprendre davantage. Je recherche des opportunités pour grandir en tant que développeur.</p>
+        </div>
+      </section>
+
+      <section>
+        <h2 id="contact">Contact</h2>
+        <div>
+          <ul class="contact">
+            <li><a href="mailto:charreteur.korentin@gmail.com">charreteur.korentin@gmail.com</a></li>
+            <li><a href="https://www.linkedin.com/in/korentin-charreteur">LinkedIn</a></li>
+            <!-- Numéro de téléphone retiré pour une plus grande confidentialitée -->
+          </ul>
+        </div>
+      </section>
+
+      <section>
+        <h2 id="technoUse">Téchnologies utilisées</h2>
+        <div class="usedTechnologies">
+          <span>PHP</span>
+          <span>Python</span>
+          <span>SQL</span>
+          <span>Docker</span>
+          <span>Java</span>
+          <span>JavaFX</span>
+          <span>C</span>
+          <span>C++</span>
+          <span>HTML</span>
+          <span>CSS</span>
+        </div>
+      </section>
+
+      <section>
+        <h2 id="competence">Compétences</h2>
+        <div class="competences">
+          <div class="project">
+            <h3>Réaliser des applications</h3>
+            <p>Conception et développement d'applications adaptées aux besoins d'un client.</p>
+            <a href="#projetSnake" class="btn">Voir un projet lié</a>
+          </div>
+          <div class="project">
+            <h3>Optimiser des applications</h3>
+            <p>Amélioration des performances, de la qualité et de la sécurité des applications.</p>
+            <a href="#projetSnakeAuto" class="btn">Voir un projet lié</a>
+          </div>
+          <div class="project">
+            <h3>Administrer des systèmes informatiques</h3>
+            <p>Gestion de réseaux, serveurs, systèmes d'exploitation et bases de données.</p>
+            <a href="#projetInstallation" class="btn">Voir un projet lié</a>
+          </div>
+          <div class="project">
+            <h3>Gérer des données de l'information</h3>
+            <p>Modélisation, stockage, analyse et exploitation efficace des données.</p>
+            <a href="#projetCreationBD" class="btn">Voir un projet lié</a>
+          </div>
+          <div class="project">
+            <h3>Conduire un projet</h3>
+            <p>Organisation et suivi de projets informatiques en équipe.</p>
+            <a href="#projetRecueilBesoins" class="btn">Voir un projet lié</a>
+          </div>
+          <div class="project">
+            <h3>Collaborer dans un contexte professionnel</h3>
+            <p>Développement des compétences relationnelles, communication et travail en équipe.</p>
+            <a href="#projetEconomique" class="btn">Voir un projet lié</a>
+          </div>
+        </div>
+      </section>
+
+      <section>
+        <h2 id="project">Projets</h2>
+        <div class="projects">
+          <div class="project" id="projetSnake">
+            <h3>Snake</h3>
+            <p>
+              Ce jeu Snake se déroule sur un plateau de 80x40 caractères avec des ouvertures aux côtés. Le serpent ('O' et 'X') commence avec 10 anneaux, se dirige vers la droite et peut être contrôlé avec z, s, q, d, sans faire demi-tour.
+              <br><br>
+              Le plateau contient 4 pavés aléatoires ('#'). La partie se termine si le serpent heurte une bordure, un pavé ou son propre corps. Il ne peut pas se croiser.
+              <br><br>
+              Objectif : manger 10 pommes ('6'). À chaque pomme mangée, il grandit et accélère.
+            </p>
+            <a href="https://github.com/N0TS0UL/nom-du-repo-snake" class="btn btn-github" target="_blank">Voir sur GitHub</a>
+          </div>
+          <div class="project" id="projetSnakeAuto">
+            <h3>Snake automatisé</h3>
+            <p>
+              Ce projet met en scène deux serpents évoluant sur le même plateau et se disputant les pommes. Chaque serpent avance tour à tour, et doit éviter toute collision ou croisement avec l’autre.
+              <br><br>
+              Le premier serpent commence à droite, le second à gauche, et leurs têtes sont distinguées par les caractères ‘1’ et ‘2’. L’objectif est de manger le plus de pommes possible avant l’autre. À la fin, le programme affiche leurs déplacements et le nombre de pommes mangées.
+            </p>
+            <a href="https://github.com/N0TS0UL/nom-du-repo-snake-auto" class="btn btn-github" target="_blank">Voir sur GitHub</a>
+          </div>
+          <div class="project" id="projetInstallation">
+            <h3>Installation d’un poste de développement</h3>
+            <p>
+              Ce projet vise à automatiser le traitement de fichiers pour le site Web des JO de Paris 2024. L’équipe doit convertir divers fichiers (textes, images, Excel) en formats exploitables grâce à scripts en Bash ou PHP et des conteneurs Docker dédiés.
+              <br><br>
+              Les principales étapes incluent l’analyse des fichiers, leur conversion, la mise en place d’une chaîne automatisée, et la génération d’un tableau des médailles en PDF.
+            </p>
+            <a href="https://github.com/N0TS0UL/nom-du-repo-installation" class="btn btn-github" target="_blank">Voir sur GitHub</a>
+          </div>
+          <div class="project" id="projetCreationBD">
+            <h3>Création de base de données</h3>
+            <p>
+              Ce projet consiste à concevoir et implanter une base de données pour gérer les résultats des championnats de football. Il comprend la modélisation UML, la traduction en modèle relationnel, et l’implémentation d’un script autonome en Tutorial D pour créer et réinitialiser la base.
+            </p>
+            <a href="https://github.com/N0TS0UL/nom-du-repo-bdd" class="btn btn-github" target="_blank">Voir sur GitHub</a>
+          </div>
+          <div class="project" id="projetRecueilBesoins">
+            <h3>Recueil des besoins</h3>
+            <p>
+              Ce projet vise à concevoir le site officiel des Jeux Olympiques et Paralympiques de Paris 2024. Il doit être accessible, attractif et international, mettant en avant les Jeux, le sport et l’image de la France.
+              <br><br>
+              Le site propose des pages dédiées aux disciplines, aux épreuves et aux athlètes, avec résultats, records et fiches détaillées. Il doit respecter les symboles graphiques de Paris 2024. Son développement suit un processus structuré, de l'expression des besoins à l'intégration finale.
+            </p>
+            <a href="https://github.com/N0TS0UL/nom-du-repo-recueil" class="btn btn-github" target="_blank">Voir sur GitHub</a>
+          </div>
+          <div class="project" id="projetEconomique">
+            <h3>Environement économique</h3>
+            <p>
+              Lors de ce projet, notre objectif était d’analyser la Responsabilité Sociétale des Entreprises (RSE) d’Engie, en évaluant ses performances par rapport aux attentes et ses engagements pour l’avenir.
+              <br><br>
+              Nous avons étudié les actions mises en place pour le développement durable, la transition énergétique et l’impact social, en comparant ces initiatives aux objectifs annoncés. L’histoire d’Engie a également été abordée pour comprendre son évolution et sa position actuelle sur le marché.  
+            </p>
+            <a href="https://github.com/N0TS0UL/nom-du-repo-economique" class="btn btn-github" target="_blank">Voir sur GitHub</a>
+          </div>
+        </div>
+        <a href="https://github.com/N0TS0UL" class="btn">Voir tous mes projets</a>
+        <a href="#competence" class="btn">Voir toutes mes compétences</a>
+      </section>
+
+      <section>
+        <h2 id="cv">Mon CV</h2>
+        <a href="chemin/vers/ton_cv.pdf" class="btn">Télécharger mon CV</a>
+      </section>
+    </main>
+    <footer>
+      <ul>
+        <li><a href="mailto:charreteur.korentin@gmail.com">charreteur.korentin@gmail.com</a></li>
+        <li><a href="www.linkedin.com/in/korentin-charreteur">LinkedIn</a></li>
+        <!-- Numéro de téléphone retiré pour une plus grande confidentialité -->
+      </ul>
+      <p>&copy; 2025 - Korentin CHARRETEUR. Tous droits réservés.</p>
+    </footer>
+    <aside class="reseaux">
+      <a href="https://github.com/N0TS0UL"><img src="Images/github.png" alt="logo github"></a>
+      <a href="www.linkedin.com/in/korentin-charreteur"><img src="Images/logo-linkedin.png" alt="logo linkedin"></a>
+    </aside>
+    <script>
+      const toggle = document.querySelector('.navbar-toggle');
+      const navUl = document.querySelector('.navbar ul');
+      toggle.addEventListener('click', () => {
+        navUl.classList.toggle('open');
+      });
+    </script>
+  </body>
+</html>
