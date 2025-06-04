@@ -102,54 +102,159 @@
           <div class="project" id="projetSnake">
             <h3>Snake</h3>
             <p>
-              Ce jeu Snake se déroule sur un plateau de 80x40 caractères avec des ouvertures aux côtés. Le serpent ('O' et 'X') commence avec 10 anneaux, se dirige vers la droite et peut être contrôlé avec z, s, q, d, sans faire demi-tour.
+              <strong>S - Situation :</strong> Ce projet s'inscrit dans la SAÉ S1.01 du Département Informatique de l'IUT de Lannion. Son objectif est d’implémenter un jeu du Snake en langage C, en respectant les conventions de codage vues en R1.01.
               <br><br>
-              Le plateau contient 4 pavés aléatoires ('#'). La partie se termine si le serpent heurte une bordure, un pavé ou son propre corps. Il ne peut pas se croiser.
+              <strong>T - Tâche :</strong> Développer un jeu du Snake en C, en intégrant des fonctionnalités évolutives, incluant le déplacement du serpent, la gestion des interactions utilisateur, les collisions et les mécaniques de jeu avancées.
               <br><br>
-              Objectif : manger 10 pommes ('6'). À chaque pomme mangée, il grandit et accélère.
+              <strong>A - Action :</strong>
+              <ul>
+                <li>Programmation en C avec utilisation des tableaux, fonctions et procédures spécifiques.</li>
+                <li>Respect des conventions de codage et intégration d’algorithmes de déplacement et de collision.</li>
+                <li>Conception progressive du code en intégrant de nouvelles fonctionnalités.</li>
+                <li>Élaboration d’un cahier de tests.</li>
+              </ul>
+              <strong>R - Résultat :</strong>
+              <ul>
+                <li>Maîtriser les bases de la programmation en C.</li>
+                <li>Appliquer des concepts de programmation structurée.</li>
+                <li>Gérer les interactions utilisateur et les contraintes du terminal.</li>
+                <li>Développer des algorithmes avancés et un code bien structuré.</li>
+                <li>Suivre un cahier des charges et valider le développement par des tests.</li>
+              </ul>
             </p>
             <a href="https://github.com/N0TS0UL/S1.01-Implementation" class="btn btn-github" target="_blank">Voir sur GitHub</a>
           </div>
           <div class="project" id="projetSnakeAuto">
             <h3>Snake automatisé</h3>
             <p>
-              Ce projet met en scène deux serpents évoluant sur le même plateau et se disputant les pommes. Chaque serpent avance tour à tour, et doit éviter toute collision ou croisement avec l’autre.
+              <strong>S - Situation :</strong> Le projet "Le Snake autonome" a été développé dans le cadre de l'Unité d'Enseignement SAÉ S1.02 du Département Informatique de l'IUT de Lannion, durant le Semestre 1. Son objectif principal est d'explorer et comparer différentes approches algorithmiques à travers la programmation du déplacement autonome d'un serpent, afin qu’il puisse collecter des pommes de manière optimisée.
               <br><br>
-              Le premier serpent commence à droite, le second à gauche, et leurs têtes sont distinguées par les caractères ‘1’ et ‘2’. L’objectif est de manger le plus de pommes possible avant l’autre. À la fin, le programme affiche leurs déplacements et le nombre de pommes mangées.
+              <strong>T - Tâche :</strong> Concevoir un programme autonome en C permettant à un serpent de se déplacer et manger des pommes tout en respectant des contraintes évolutives. Le projet implique l'intégration d'obstacles, des règles de mouvement spécifiques et la gestion efficace des interactions entre les éléments du plateau de jeu.
+              <br><br>
+              <strong>A - Action :</strong>
+              <ul>
+                <li>Programmation en C en appliquant des algorithmes de déplacement et d'optimisation.</li>
+                <li>Adaptation du code pour gérer les nouvelles règles du jeu (évitement d'obstacles, restrictions de mouvement).</li>
+                <li>Développement de stratégies efficaces pour la prise de décision et le parcours autonome du serpent.</li>
+                <li>Conception de procédures dédiées pour la gestion du plateau et des éléments interactifs.</li>
+                <li>Respect des conventions de codage et élaboration d’un cahier de tests.</li>
+              </ul>
+              <strong>R - Résultat :</strong>
+              <ul>
+                <li>Un programme fonctionnel a été produit, permettant un déplacement intelligent du serpent.</li>
+                <li>Les performances du programme sont mesurées en nombre de déplacements, temps CPU et efficacité de collecte des pommes.</li>
+                <li>Le projet a permis de renforcer la compréhension des algorithmes de parcours, de la gestion d’obstacles et des interactions entre objets en programmation.</li>
+                <li>Le code source est structuré, commenté et conforme aux bonnes pratiques.</li>
+              </ul>
             </p>
             <a href="https://github.com/N0TS0UL/S1.02-Automatisation" class="btn btn-github" target="_blank">Voir sur GitHub</a>
           </div>
           <div class="project" id="projetInstallation">
             <h3>Installation d’un poste de développement</h3>
             <p>
-              Ce projet vise à automatiser le traitement de fichiers pour le site Web des JO de Paris 2024. L’équipe doit convertir divers fichiers (textes, images, Excel) en formats exploitables grâce à scripts en Bash ou PHP et des conteneurs Docker dédiés.
+              <strong>S - Situation :</strong> Votre équipe travaille pour une ESN (Entreprise de Service du Numérique) mandatée par le Comité Olympique pour automatiser le traitement des fichiers destinés au site Web des JO de Paris 2024. L'équipe chargée du site reçoit régulièrement des fichiers aux formats variés et souvent inadaptés au Web, nécessitant une conversion et un nettoyage. Face à la récurrence des envois et aux corrections fréquentes, le projet vise à automatiser ces tâches répétitives.
               <br><br>
-              Les principales étapes incluent l’analyse des fichiers, leur conversion, la mise en place d’une chaîne automatisée, et la génération d’un tableau des médailles en PDF.
+              <strong>T - Tâche :</strong> Développer une chaîne de traitement automatisée des fichiers pour l'équipe du site Web des JO, comprenant l'analyse des fichiers, la conversion aux formats adaptés, le tri des données, la gestion des drapeaux des pays et la génération d’un tableau des médailles en PDF.
+              <br><br>
+              <strong>A - Action :</strong>
+              <ul>
+                <li>Analyse des fichiers et rédaction d’un rapport sur leur compatibilité Web.</li>
+                <li>Conversion et automatisation des fichiers en formats exploitables (textes, images, CSV).</li>
+                <li>Traitement dynamique des données : nettoyage, calculs, tri des médailles, gestion des ex-æquo.</li>
+                <li>Téléchargement automatisé des drapeaux des pays selon les données du tableau des médailles.</li>
+                <li>Génération d’un PDF détaillant les médailles de chaque pays avec classement et statistiques.</li>
+                <li>Utilisation de conteneurs Docker pour exécuter les traitements sans nécessiter d’outils spécifiques sur la machine locale.</li>
+              </ul>
+              <strong>R - Résultat :</strong>
+              <ul>
+                <li>La mise en place d’une chaîne de traitement efficace et réutilisable pour les fichiers des JO.</li>
+                <li>La création de livrables exploitables par l’équipe Web, incluant rapports d’analyse, fichiers convertis, scripts de traitement, et PDF du tableau des médailles.</li>
+                <li>Une documentation complète décrivant chaque étape et facilitant la reprise du projet.</li>
+                <li>La fiabilité et l’optimisation des traitements grâce à l’automatisation, réduisant le temps et les erreurs humaines.</li>
+              </ul>
             </p>
             <a href="https://github.com/N0TS0UL/S1.03-InstallationPoste" class="btn btn-github" target="_blank">Voir sur GitHub</a>
           </div>
           <div class="project" id="projetCreationBD">
             <h3>Création de base de données</h3>
             <p>
-              Ce projet consiste à concevoir et implanter une base de données pour gérer les résultats des championnats de football. Il comprend la modélisation UML, la traduction en modèle relationnel, et l’implémentation d’un script autonome en Tutorial D pour créer et réinitialiser la base.
+              <strong>S - Situation :</strong> Projet universitaire en Bases de Données, visant à concevoir et implémenter une base de données pour gérer les résultats des championnats de football.
+              <br><br>
+              <strong>T - Tâche :</strong> Transformer un diagramme UML en modèle relationnel, en utilisant Tutorial D, et produire :
+              <ul>
+                <li>Un fichier .rel permettant la création et la réinitialisation de la base.</li>
+                <li>Un graphe des contraintes d’intégrité référentielles.</li>
+              </ul>
+              <strong>A - Action :</strong>
+              <ul>
+                <li>Développement d’un fichier Tutorial D auto-exécutable.</li>
+                <li>Création d’un script SQL structurant les données.</li>
+                <li>Conception d’un graphe des contraintes avec un outil dédié.</li>
+                <li>Traduction des objets UML en relations SQL et gestion des règles d’intégrité.</li>
+              </ul>
+              <strong>R - Résultat :</strong>
+              <ul>
+                <li>Base de données fonctionnelle, prête à être utilisée.</li>
+                <li>Graphe des contraintes détaillant les relations.</li>
+                <li>Livrables conformes aux consignes.</li>
+                <li>Maîtrise des concepts de modélisation et gestion des bases relationnelles.</li>
+              </ul>
             </p>
             <a href="https://github.com/N0TS0UL/S1.04-CreationBDD" class="btn btn-github" target="_blank">Voir sur GitHub</a>
           </div>
           <div class="project" id="projetRecueilBesoins">
             <h3>Recueil des besoins</h3>
             <p>
-              Ce projet vise à concevoir le site officiel des Jeux Olympiques et Paralympiques de Paris 2024. Il doit être accessible, attractif et international, mettant en avant les Jeux, le sport et l’image de la France.
+              <strong>S - Situation :</strong> Le Comité d’organisation des Jeux Olympiques et Paralympiques de Paris 2024 souhaite développer un site internet officiel pour informer le grand public sur l'événement. Ce site doit être attractif, instinctif et accessible, en cohérence avec les symboles olympiques comme la Phryge.
               <br><br>
-              Le site propose des pages dédiées aux disciplines, aux épreuves et aux athlètes, avec résultats, records et fiches détaillées. Il doit respecter les symboles graphiques de Paris 2024. Son développement suit un processus structuré, de l'expression des besoins à l'intégration finale.
+              <strong>T - Tâche :</strong> Créer une plateforme numérique qui diffuse des informations sur les disciplines, les épreuves, les athlètes, et les valeurs olympiques. Le site doit garantir une visibilité internationale, promouvoir le sport, et être consultable sur tous types de supports (tablettes, smartphones).
+              <br><br>
+              <strong>A - Action :</strong>
+              <ul>
+                <li>Expression des besoins et définition de l’arborescence du site.</li>
+                <li>Sélection du contenu et élaboration d’une charte graphique alignée sur Paris 2024.</li>
+                <li>Maquettage et développement des différentes fonctionnalités :</li>
+                <ul>
+                  <li>Page d’accueil avec informations générales et classement des médailles.</li>
+                  <li>Pages dédiées aux disciplines, aux épreuves et aux athlètes.</li>
+                  <li>Suivi des records olympiques et actualités.</li>
+                  <li>Accessibilité renforcée pour un public international et malvoyant.</li>
+                  <li>Intégration technique et mise en place d’une solution permettant le suivi des vues du site.</li>
+                </ul>
+              </ul>
+              <strong>R - Résultat :</strong>
+              <ul>
+                <li>Renforcer l’engouement populaire et l’adhésion aux Jeux.</li>
+                <li>Faciliter l’accès au sport en reliant les utilisateurs aux fédérations sportives.</li>
+                <li>Promouvoir l’image de la France à l’international, sur le plan sportif et culturel.</li>
+                <li>Inspirer à travers les portraits d’athlètes et leurs performances.</li>
+                <li>Garantir une large visibilité.</li>
+              </ul>
             </p>
             <a href="https://github.com/N0TS0UL/S1.05-RecueilBesoins" class="btn btn-github" target="_blank">Voir sur GitHub</a>
           </div>
           <div class="project" id="projetEconomique">
-            <h3>Environement économique</h3>
+            <h3>Environnement économique</h3>
             <p>
-              Lors de ce projet, notre objectif était d’analyser la Responsabilité Sociétale des Entreprises (RSE) d’Engie, en évaluant ses performances par rapport aux attentes et ses engagements pour l’avenir.
+              <strong>S - Situation :</strong> Ce projet consiste à réaliser une présentation (diaporama) et un rapport sur une entreprise française connue, ici Engie. Il met en avant la nécessité d'une bonne communication et organisation au sein de l'équipe.
               <br><br>
-              Nous avons étudié les actions mises en place pour le développement durable, la transition énergétique et l’impact social, en comparant ces initiatives aux objectifs annoncés. L’histoire d’Engie a également été abordée pour comprendre son évolution et sa position actuelle sur le marché.  
+              <strong>T - Tâche :</strong> L'objectif est de concevoir un diaporama efficace et un rapport structuré, intégrant des analyses approfondies de l’entreprise (historique, actions RSE, organisation interne). Il doit aussi évaluer l'engagement et la conformité aux consignes.
+              <br><br>
+              <strong>A - Action :</strong>
+              <ul>
+                <li>Recherche approfondie : rapport annuel, charte RSE, bibliothèque universitaire, analyses SWOT et PORTER.</li>
+                <li>Organisation et collaboration : répartition des tâches, planification des réunions, utilisation d’outils de travail collaboratif.</li>
+                <li>Analyse et synthèse : entretiens pour évaluer les points forts/faibles, veille stratégique, application de la méthode AGILE.</li>
+                <li>Création des livrables : diaporama structuré (présentation de l’entreprise, analyse RSE, historique, méthodologie), rapport concis et précis.</li>
+              </ul>
+              <strong>R - Résultat :</strong>
+              <ul>
+                <li>Un diaporama de qualité, clair et bien structuré.</li>
+                <li>Un rapport concis, intégrant des analyses pertinentes.</li>
+                <li>Une évaluation des engagements de l’entreprise et du respect des consignes.</li>
+                <li>Une meilleure compréhension de l’organisation d’Engie grâce aux outils stratégiques comme SWOT et PORTER.</li>
+                <li>L’application efficace de méthodes de travail comme AGILE et une veille stratégique optimisée.</li>
+              </ul>
             </p>
             <a href="https://github.com/N0TS0UL/S1.06-Economie" class="btn btn-github" target="_blank">Voir sur GitHub</a>
           </div>
