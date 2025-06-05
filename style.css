@@ -267,10 +267,10 @@
         top: 0.5rem;
         z-index: 200;
       }
-      /*.navbar {
+      .navbar {
         position: relative;
         min-height: 3.5rem;
-      }*/
+      }
     }
     @media (max-width: 500px) {
       h1 { font-size: 1.5rem; }
