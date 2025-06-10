@@ -71,7 +71,8 @@
     .aPropos h3 {
       background: #825B48;
       color: #FFF1EB;
-      padding: 0.5rem 1rem;
+      margin: auto;
+      border-radius: 20px;
     }
     .contact {
       padding-left: 0.5rem;
