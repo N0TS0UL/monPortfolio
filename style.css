@@ -72,7 +72,7 @@
       background: #825B48;
       color: #FFF1EB;
       border-radius: 20px;
-      display: inline-block;
+      padding: 0.2em 1em;
     }
     .contact {
       padding-left: 0.5rem;
